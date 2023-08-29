@@ -1,0 +1,59 @@
+﻿@model Core_CollegeGrievanceCell.Models.Complaint
+@{
+    Layout = "_StudentLayout";
+}
+
+<form asp-action="RaiseAComplaint" asp-controller="Student" class="container" width="50%" align="center" style="max-width: 370px; margin: 0 auto;">
+    <h2>Complaint Box</h2>
+    <br />
+
+    <table class="table">
+       
+    
+        <tr>
+            <td>
+                <label asp-for="ComplaintType"></label>
+            </td>
+            <td>
+                <select asp-for="ComplaintType" required>
+
+                    <option value="">Select Any One</option>
+                    <option value="General">General</option>
+                    <option value="DepartmentWise">DepartmentWise</option>
+                 
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Description"></label>
+            </td>
+            <td>
+               <textarea asp-for="Description"></textarea>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit" name="add" value="Submit" class="btn btn-primary" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <a asp-action="StudentModule" asp-Controller="Student">Back</a>
+<br />
+    @if (ViewBag.msg != null)
+    {
+        <h4 class="text-danger align-content-center">@ViewBag.msg</h4>
+    }
+    @if (ViewBag.result != null)
+    {
+        <h4 class="text-success align-content-center">Complaint Registered Successfully with ID @ViewBag.result</h4>
+    }
+
+</form>
+

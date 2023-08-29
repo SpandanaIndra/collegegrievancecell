@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Core_CollegeGrievanceCell.Models.Complaint>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+
+<h1>Solve Complaint</h1>
+<br />
+
+
+<form asp-action="SolveComplaint" asp-controller="Admin" class="container" width="50%" align="center" style="max-width: 600px; margin: 0 auto;">
+
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.ComplaintId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfComplaint)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>SolveIssue</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ComplaintId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfComplaint)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                            <input type="submit" value="Solve" onclick="return confirm(' Click Ok To Continue..!')" asp-route-id="@item.ComplaintId">
+
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <a asp-action="AdminModule" asp-Controller="Admin">Back</a>
+
+</div>
+</form>

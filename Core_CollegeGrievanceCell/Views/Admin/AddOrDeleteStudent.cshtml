@@ -1,0 +1,82 @@
+﻿@model Core_CollegeGrievanceCell.Models.DetailsByAdmin
+@{
+    Layout = "_AdminLayout";
+}
+
+<form asp-action="AddOrDeleteStudent" asp-controller="Admin" class="container" width="50%" align="center" style="max-width: 370px; margin: 0 auto;">
+ <h2>Add Or Delete Users</h2>
+ <br />
+    
+    <table>
+        <tr>
+            <td>
+                <label asp-for="Id" ></label>
+            </td>
+            <td>
+                <input type="text" asp-for="Id" class="form-control" />
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label asp-for="UserName"></label>
+            </td>
+            <td>
+                <input type="text" asp-for="UserName" class="form-control" />
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label asp-for="Department"></label>
+            </td>
+            <td>
+                <select asp-for="Department"  required>
+                  
+                    <option value="">Select Department</option>
+                    <option value="Cse">Cse</option>
+                    <option value="Ece">Ece</option>
+                    <option value="EEE">EEE</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="IT">IT</option>
+
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label asp-for="Designation"></label>
+            </td>
+            <td>
+  <select asp-for="Designation"  required>
+                    <option value="">Select Designation</option>
+                    <option value="Admin">Admin</option>
+                    <option value="HOD">HOD</option>
+                    <option value="Student">Student</option>
+
+
+                </select>
+
+
+  </td>
+            </tr>
+            <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit" name="add" value="AddNewUser" class="btn btn-success" />
+                <input type="submit" name="delete" value="Delete" class="btn btn-danger" onclick="return confirm(' Details will be deleted permanently..!')" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    @if (ViewBag.msg != null)
+    {
+        <h2 class="text-danger align-content-center">@ViewBag.msg</h2>
+    }
+    @if (ViewBag.res != null)
+    {
+        <h2 class="text-success align-content-center">@ViewBag.res</h2>
+    }
+
+</form>
+
+   

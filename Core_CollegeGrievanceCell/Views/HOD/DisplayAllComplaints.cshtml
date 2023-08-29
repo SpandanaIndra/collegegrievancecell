@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Core_CollegeGrievanceCell.Models.Complaint>
+
+@{
+    Layout = "_HODLayout";
+}
+
+
+
+<h1>All Complaint Details</h1>
+<br />
+
+
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.ComplaintId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfComplaint)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ComplaintId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfComplaint)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <div class="container align-content-center">
+        @if(ViewBag.Result!=null)
+        {
+            <h3 class="text-success">@ViewBag.Result</h3>
+        }
+    </div>
+
+    <br />
+    <a asp-action="HODModule" asp-Controller="HOD">Back</a>
+
+</div>
+

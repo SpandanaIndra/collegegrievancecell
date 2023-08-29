@@ -1,0 +1,76 @@
+﻿@model Core_CollegeGrievanceCell.Models.User
+@{
+    Layout = "_CollegeLayout";
+}
+<form asp-action="Login" asp-controller="College" class="container" width="50%" align="center" style="max-width: 400px; margin: 0 auto;">
+    <h1>Login Form </h1>
+    <br />
+    <table class="table">
+        <tr>
+            <td>
+                <label asp-for="UserId" class="control-label">UserId</label>
+
+            </td>
+            <td>
+                <input asp-for="UserId" class="form-control" required />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+
+
+            </td>
+            </tr>
+        <tr><td>
+
+        </td><td>
+
+        </td></tr>
+        <tr>
+             <td>
+                <label asp-for="Password" class="control-label"></label>
+
+            </td>
+            <td>
+                <input asp-for="Password" type="password" class="form-control" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Designation" class="control-label"></label>
+
+            </td>
+            <td>
+                 <select asp-for="Designation" asp-items="@ViewBag.Dept" required>
+@*                <select name="design">
+*@             
+                   <option value="">Select Designation</option>
+                     @* <option value="admin">Admin</option>
+                    <option value="hod">HOD</option>
+                    <option value="student">Student</option>*@
+                </select>
+            </td>
+            </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <input type="submit" value="Login" class="btn btn-primary" />
+
+            </td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <a asp-action="SignUp" asp-controller="College">Are you new..?Please SignUp</a>
+
+
+
+</form>
+@if (ViewBag.msg != null)
+{
+    <h2 align="center"  class="text-danger align-content-center">@ViewBag.msg</h2>
+    <br />
+   
+}

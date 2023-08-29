@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Core_CollegeGrievanceCell
+build_property.RootNamespace = Core_CollegeGrievanceCell
+build_property.ProjectDir = C:\Users\SPANDANA INDRA\source\repos\Core_CollegeGrievanceCell\Core_CollegeGrievanceCell\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\SPANDANA INDRA\source\repos\Core_CollegeGrievanceCell\Core_CollegeGrievanceCell
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Admin/AddOrDeleteStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkT3JEZWxldGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Admin/AdminModule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Nb2R1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Admin/DisplayAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheUFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Admin/DisplaySolved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheVNvbHZlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Admin/SolveComplaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU29sdmVDb21wbGFpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/College/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/College/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/College/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/College/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/College/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVnZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/HOD/DisplayAllComplaints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSE9EXERpc3BsYXlBbGxDb21wbGFpbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/HOD/DisplaySolved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSE9EXERpc3BsYXlTb2x2ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/HOD/HODModule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSE9EXEhPRE1vZHVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/HOD/SolveComplaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSE9EXFNvbHZlQ29tcGxhaW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_CollegeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db2xsZWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_HODLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IT0RMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_StudentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHVkZW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Student/DisplayAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEaXNwbGF5QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Student/DisplayPending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEaXNwbGF5UGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Student/DisplaySolved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEaXNwbGF5U29sdmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Student/RaiseAComplaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSYWlzZUFDb21wbGFpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Student/StudentModule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TW9kdWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SPANDANA INDRA/source/repos/Core_CollegeGrievanceCell/Core_CollegeGrievanceCell/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pnm4fewjej

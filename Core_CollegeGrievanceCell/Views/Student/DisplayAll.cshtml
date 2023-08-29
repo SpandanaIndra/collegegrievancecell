@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Core_CollegeGrievanceCell.Models.Complaint>
+@{
+    Layout = "_StudentLayout";
+}
+
+
+
+<h1>All Complaint Details</h1>
+<br />
+
+<a asp-action="RaiseAComplaint" asp-Controller="Student">Raise A New Complaint</a>
+
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.ComplaintId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfComplaint)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ComplaintId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfComplaint)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                   
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <a asp-action="StudentModule" asp-Controller="Student">Back</a>
+
+</div>
